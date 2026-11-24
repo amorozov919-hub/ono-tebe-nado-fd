@@ -90,6 +90,7 @@
 
 .aligned-text_center{
   text-align: center;
+  padding-left: 30px;
 }
 
 .aligned-text_right{
@@ -108,7 +109,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 78px;
+  gap: 107px;
 }
 
 .cover__description-text{
