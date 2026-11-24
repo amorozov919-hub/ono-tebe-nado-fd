@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px;   
+  padding: 92px 50px 96px;
 }
 
 
@@ -13,7 +13,7 @@
 }
 
 .header__links-list-item_no-bullit {
-  list-style: none;    
+  list-style: none;
 }
 
 .header__link {
@@ -23,18 +23,18 @@
 }
 
 .header__link_active {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .header__logo {
   display: block;
   width: 148px;
-  height: 105px;  
+  height: 105px;
 }
 
 .header__logo-image {
   width: 100%;
-  height: 100%;  
+  height: 100%;
 }
 
 .address {
@@ -42,7 +42,7 @@
   flex-direction: column;
   align-items: flex-start;
   max-width: 240px;
-  font-style: normal; 
+  font-style: normal;
   font-size: 18px;
   line-height: 24.3px;
   text-underline-offset: 4px;
@@ -67,9 +67,9 @@
   position: absolute;
   inset: 0;
   z-index: -1;
-  background-color: rgb(0 0 0 / 0.6 )
+  background-color: rgb(0 0 0 / 0.6)
 }
-  
+
 .cover__title {
   display: flex;
   flex-direction: column;
@@ -125,7 +125,7 @@
   padding: 12px 32px;
   color: #fff;
   font-weight: 500;
-  font-size:  22px;
+  font-size: 22px;
   line-height: normal;
   text-transform: uppercase;
   background-color: transparent;
@@ -212,6 +212,7 @@
   line-height: normal;
   text-underline-offset: 5px;
 }
+
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
@@ -276,6 +277,7 @@
   line-height: normal;
   text-underline-offset: 4px;
 }
+
 .footer__menu-link_active {
   text-decoration: none;
 }
