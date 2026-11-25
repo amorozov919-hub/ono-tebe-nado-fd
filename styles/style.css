@@ -95,14 +95,7 @@
 
 .aligned-text_right {
   text-align: right;
-}
-
-.letter-spacing-extendet {
-  letter-spacing: 60px;
-}
-
-.no-letter-spacing {
-  letter-spacing: 0;
+  margin-right: -30px;
 }
 
 .cover__description {
@@ -255,7 +248,7 @@
 
 .footer {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
+  grid-template-columns: 1fr auto 1fr;
   align-items: start;
   padding: 0 50px 82px;
 }
@@ -269,7 +262,6 @@
   flex-direction: column;
   align-items: center;
   list-style: none;
-  white-space: nowrap;
 }
 
 .footer__menu-link {
